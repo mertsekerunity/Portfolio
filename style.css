@@ -33,8 +33,11 @@ body {
     border-radius: 5px;
   }
   
-  .project video {
-    width: 100%;
-    max-height: 300px;
-  }
+.project video {
+  max-width: 100%;
+  height: auto;       /* preserves aspect ratio */
+  display: block;     /* removes inline spacing below video */
+  margin: 0 auto 20px auto;  /* centers video and adds bottom spacing */
+}
+
   
