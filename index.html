@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mert Şeker – Unity Game Developer</title>
+  <title>Mert Şeker – Unity Gameplay Programmer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Mert Şeker</h1>
-    <p>Unity Game Developer</p>
+    <p>Unity Gameplay Programmer / Game Developer</p>
     <nav>
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
@@ -20,30 +20,63 @@
   <section id="projects">
     <h2>Projects</h2>
     <div class="project">
-      <h3>Board Game Digitalization – Solo Developer</h3>
+      <h3>Multiplayer Stock Market Board Game (Solo Developer)</h3>
       <video src="Assets/Videos/BoardGameSPedited.mp4" controls></video>
-      <p>A multiplayer 2.5D stock market board game built in Unity. Features closed drafting, character abilities, and multiplayer logic using Mirror.</p>
-      <p><strong>Tech:</strong> Unity, C#, Mirror</p>
+      <p>A 2.5D, character-based stock market board game for <strong>3-6 players</strong>, built in Unity with <strong>server-authoritative multiplayer</strong> using Mirror. Each round has a bidding phase, character selection, and a main phase with buy/sell/ability moves, close-sell and tax resolution. using Mirror.</p>
+      <ul>
+        <li>Closed draft / bidding system with player-specific character abilities</li>
+        <li>Open and close stock selling, bankruptcy/ceiling mechanics, lottery, tax and manipulation decks</li>
+        <li>Undo system with turn history and rollback of stock prices and money</li>
+        <li>Custom NetworkManager, NetPlayer, and Command → Server → TargetRpc flow</li>
+      </ul>
+      <p><strong>Tech:</strong> Unity(2022.3.55f1), C#, Mirror</p>
     </div>
 
     <div class="project">
-      <h3>Skill Crafting ARPG – Solo Developer</h3>
+      <h3>Skill Crafting ARPG (Solo Developer)</h3>
       <video src="Assets/Videos/ARPG.mp4" controls></video>
-      <p>A singleplayer 2.5D ARPG built in Unity. Features skill crafting, enemies, and quest track system.</p>
-      <p><strong>Tech:</strong> Unity, C#</p>
+      <p>
+        A singleplayer 2.5D ARPG prototype focusing on <strong>skill crafting</strong> and combat feel.
+        Includes basic quests, enemy AI and a lightweight progression loop.
+      </p>
+      <ul>
+        <li>Modular skill system with different damage / effect combinations</li>
+        <li>Enemy behaviours, hit reactions and basic combat feedback</li>
+        <li>Quest tracking and simple progression structure</li>
+      </ul>
+      <p><strong>Tech:</strong> Unity(2022.3.55f1), C#</p>
     </div>
 
     <div class="project">
-      <h3>Zombie Survival – Solo Developer</h3>
+      <h3>Zombie Survival Shooter (Solo Developer)</h3>
       <video src="Assets/Videos/ZombieSurvival2.mp4" controls></video>
-      <p>A singleplayer 3D zombie shooter game built in Unity. Features shooting with different weapons, zombie track logic, and animations.</p>
-      <p><strong>Tech:</strong> Unity, C#</p>
+      <p>
+        A singleplayer 3D zombie survival prototype with multiple weapons and simple wave-based pacing.
+      </p>
+      <ul>
+        <li>First/third person shooting with different weapons and ammo handling</li>
+        <li>Zombie spawning and tracking logic (chasing, attacking, dying)</li>
+        <li>Basic animation state machine setup and VFX integration</li>
+      </ul>
+      <p><strong>Tech:</strong> Unity(2022.3.55f1), C#</p>
     </div>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a Unity Game Developer transitioning from robotics and control engineering to game development. Experienced with multiplayer systems, 2.5D games, and game mechanics design.</p>
+    <p>
+      I’m a <strong>Unity gameplay programmer</strong> transitioning from robotics and control engineering
+      into game development. I enjoy building systemic games: turn-based flows, multiplayer board-game-like
+      experiences, and clear, testable game logic.
+    </p>
+    <p>
+      Background: BSc in Electrical &amp; Electronics Engineering, MSc in Mechanical Engineering (systems &amp; control),
+      previously worked as a control/motion-control engineer. Now focused on Unity, C#, and multiplayer gameplay.
+    </p>
+    <p>
+      I’m actively looking for <strong>junior Unity or gameplay programmer roles</strong>
+      (onsite or remote).
+    </p>
     <p><a href="resume.pdf" target="_blank">Download Resume</a></p>
   </section>
 
