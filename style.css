@@ -40,4 +40,19 @@ body {
   margin: 0 auto 20px auto;  /* centers video and adds bottom spacing */
 }
 
+.project-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.project-links a {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
   
