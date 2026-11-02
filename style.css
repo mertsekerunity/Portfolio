@@ -187,3 +187,7 @@ section h2 {
     font-size: 1.15rem;
   }
 }
+
+.project video.portrait-video {
+    max-width: 450px;
+}
