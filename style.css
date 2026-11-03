@@ -310,3 +310,68 @@ section h2 {
 #contact a:hover {
     color: var(--accent-hover);
 }
+
+
+/* =========================
+   Theme Trial 1
+   Forest & Warm Stone
+   ========================= */
+
+:root {
+    --bg: #171C1B;
+    --surface: #252D2A;
+    --surface-hover: #323C36;
+    --text: #F2EFE8;
+    --muted: #B6BDB5;
+    --accent: #B2C8AD;
+    --accent-hover: #C7D9C1;
+    --border: #404D46;
+}
+
+/* Background and body typography */
+
+body {
+    background:
+        radial-gradient(
+            ellipse at 50% 0%,
+            rgba(65, 91, 77, 0.22),
+            transparent 650px
+        ),
+        var(--bg);
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+    font-family: 'Sora', sans-serif;
+    letter-spacing: -0.025em;
+}
+
+
+/* =========================
+   Theme Trial 2
+   Graphite & Steel Blue
+   ========================= */
+
+:root {
+    --bg: #151A21;
+    --surface: #222B36;
+    --surface-hover: #2D3947;
+    --text: #F1F3F5;
+    --muted: #B0BAC7;
+    --accent: #96BDE9;
+    --accent-hover: #B3D2F0;
+    --border: #384655;
+}
+
+body {
+    background:
+        radial-gradient(
+            ellipse at 50% 0%,
+            rgba(75, 104, 139, 0.14),
+            transparent 650px
+        ),
+        var(--bg);
+}
