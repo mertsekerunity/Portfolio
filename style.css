@@ -191,3 +191,122 @@ section h2 {
 .project video.portrait-video {
     max-width: 450px;
 }
+
+/* =========================
+   Portfolio Visual Refresh
+   Phase 1: Colors and Typography
+   ========================= */
+
+:root {
+    --bg: #101820;
+    --surface: #1D2B38;
+    --surface-hover: #263746;
+    --text: #F0F3F6;
+    --muted: #AAB8C5;
+    --accent: #E9B56B;
+    --accent-hover: #F5C985;
+    --border: #344453;
+}
+
+/* Global */
+
+body {
+    background:
+        radial-gradient(
+            ellipse at 50% 0%,
+            #243746 0%,
+            transparent 650px
+        ),
+        var(--bg);
+
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.025em;
+}
+
+/* Header */
+
+header {
+    background: transparent;
+    border-bottom: 1px solid var(--border);
+}
+
+header p {
+    color: var(--muted);
+}
+
+header nav a {
+    color: var(--text);
+}
+
+header nav a:hover {
+    background: var(--surface-hover);
+}
+
+/* Sections */
+
+section h2 {
+    color: var(--text);
+}
+
+/* Project Cards */
+
+.project {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.project h3 {
+    color: var(--text);
+}
+
+.project p,
+.project li {
+    color: var(--muted);
+}
+
+.project strong {
+    color: var(--text);
+}
+
+.project video {
+    background: #0B1118;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Links */
+
+.project-links a {
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 600;
+}
+
+.project-links a:hover {
+    background: var(--accent-hover);
+}
+
+/* About & Contact */
+
+#about,
+#contact {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: none;
+}
+
+#about a,
+#contact a {
+    color: var(--accent);
+}
+
+#about a:hover,
+#contact a:hover {
+    color: var(--accent-hover);
+}
